@@ -22,7 +22,7 @@ public class Makanan {
       this.nama = nama;
   }
 
-  public int getJumlah(int jumlah) {
+  public int getJumlah() {
     return jumlah;
   }
 
@@ -30,7 +30,7 @@ public class Makanan {
       this.jumlah = jumlah;
   }
 
-  public double getHarga(double harga) {
+  public double getHarga() {
     return harga;
   }
 

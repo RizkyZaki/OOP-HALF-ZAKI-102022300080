@@ -21,7 +21,7 @@ public class MakananBasah {
       this.nama = nama;
   }
 
-  public int getJumlah(int jumlah) {
+  public int getJumlah() {
     return jumlah;
   }
 
@@ -29,7 +29,7 @@ public class MakananBasah {
       this.jumlah = jumlah;
   }
 
-  public double getHarga(double harga) {
+  public double getHarga() {
     return harga;
   }
 
@@ -37,7 +37,7 @@ public class MakananBasah {
       this.harga = harga;
   }
 
-  public String getBahan(String bahan) {
+  public String getBahan() {
     return bahan;
   }
 
@@ -46,9 +46,9 @@ public class MakananBasah {
   }
   // Todo : Create Method ShowData
   public void showData() {
-    System.out.println("Nama Makanan Basah: " + nama);
-    System.out.println("Jumlah: " + jumlah);
-    System.out.println("Harga: " + harga);
-    System.out.println("Bahan: " + bahan);
+    System.out.println("Nama Makanan Basah: " + getNama());
+    System.out.println("Jumlah: " + getJumlah());
+    System.out.println("Harga: " + getHarga());
+    System.out.println("Bahan: " + getBahan());
   }
 }
